@@ -5,7 +5,7 @@
  */
 canvas = document.getElementById("the-game");
 context = canvas.getContext("2d");
-
+//progran constructor 
 enemy = {
   type: 'program',
   width: 8,
@@ -14,7 +14,7 @@ enemy = {
   history: [],
   current_direction: null
 };
-
+//constructor for player 
 player = {
   type: 'user',
   width: 8,
