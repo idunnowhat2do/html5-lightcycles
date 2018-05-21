@@ -5,7 +5,7 @@
  */
 canvas = document.getElementById("the-game");
 context = canvas.getContext("2d");
-//progran constructor 
+//program constructor 
 enemy = {
   type: 'program',
   width: 8,
@@ -23,7 +23,7 @@ player = {
   history: [],
   current_direction: null
 };
-
+//mapping the keys 
 keys = {
   up: [38, 87],
   down: [40, 83],
@@ -33,7 +33,7 @@ keys = {
 };
 
 lastKey = null;
-
+//start of game constructor 
 game = {
   
   over: false,
